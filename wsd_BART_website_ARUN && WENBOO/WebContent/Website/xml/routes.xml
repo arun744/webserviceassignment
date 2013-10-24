@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+
+<routes>
+
+  <route id="AirBART">
+    <name>AirBART SHUTTLE</name>
+    <color>999999</color>
+  </route>
+
+  <route id="01">
+    <name>PITTSBURG/BAY POINT TO SFIA-MILLBRAE</name>
+    <color>ffff33</color>
+  </route>
+
+  <route id="02">
+    <name>MILLBRAE-SFIA TO PITTSBURG/BAYPOINT</name>
+    <color>ffff33</color>
+  </route>
+
+  <route id="03">
+    <name>FREMONT TO RICHMOND</name>
+    <color>ff9933</color>
+  </route>
+
+  <route id="04">
+    <name>RICHMOND TO FREMONT</name>
+    <color>ff9933</color>
+  </route>
+
+  <route id="05">
+    <name>FREMONT TO DALY CITY</name>
+    <color>339933</color>
+  </route>
+
+  <route id="06">
+    <name>DALY CITY TO FREMONT</name>
+    <color>339933</color>
+  </route>
+
+  <route id="07">
+    <name>RICHMOND TO DALY CITY-MILLBRAE</name>
+    <color>ff0000</color>
+  </route>
+
+  <route id="08">
+    <name>MILLBRAE-DALY CITY TO RICHMOND</name>
+    <color>ff0000</color>
+  </route>
+
+  <route id="11">
+    <name>DUBLIN/PLEASANTON TO DALY CITY</name>
+    <color>0099cc</color>
+  </route>
+
+  <route id="12">
+    <name>DALY CITY TO DUBLIN/PLEASANTON</name>
+    <color>0099cc</color>
+  </route>
+
+</routes>
+

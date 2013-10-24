@@ -1,0 +1,18 @@
+<!-- Use this file to undeploy some handlers/chains and services    -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient undeploy.wsdd        -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server undeploy.wsdd -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<undeployment
+    xmlns="http://xml.apache.org/axis/wsdd/">
+
+  <!-- Services from GlobalWeather WSDL service -->
+
+  <service name="GlobalWeatherHttpPost"/>
+  <service name="GlobalWeatherSoap12"/>
+  <service name="GlobalWeatherSoap"/>
+  <service name="GlobalWeatherHttpGet"/>
+</undeployment>
